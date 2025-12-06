@@ -2,7 +2,7 @@
 :root {
     --bg: #fff;
     --texto: #111;
-    --bordas: #e5e7eb;
+    --borda: #e5e7eb;
     --caixa: #f8fafc;
     --acao: #2563eb;
 
@@ -35,4 +35,49 @@ body {
     background-color: var(--bg);
     counter-reset: var(--texto);
 
+}
+
+.topo {
+    border-bottom: 1px solid var(--borda);
+}
+
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .75rem 1rem;
+}
+
+.caixa {
+    border: 1px solid var(--borda);
+    background-color: var(--caixa);
+    border-radius: .5rem;
+    padding: 2rem 1rem;
+    margin: 1.5rem 0;
+}
+
+h1 {
+    margin-bottom: .5rem;
+    font-size: 1.6rem;
+}
+
+p {
+    margin: 1rem 0; 
+}
+
+form {
+    display: grid;
+    gap: .5rem;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    padding: .7rem .9rem;
+    border: 1px solid var(--borda);
+    border-radius: .5rem ;
+    background-color: var(--bg);
+    color: var(--texto);
 }
