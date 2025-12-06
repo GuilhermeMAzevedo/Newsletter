@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--bg);
-    counter-reset: var(--texto);
+    color: var(--texto);
 
 }
 
