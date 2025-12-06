@@ -53,7 +53,8 @@ body {
     background-color: var(--caixa);
     border-radius: .5rem;
     padding: 2rem 1rem;
-    margin: 1.5rem 0;
+    max-width: 80%;
+    margin: 1.5rem auto;
 }
 
 h1 {
@@ -80,4 +81,30 @@ input {
     border-radius: .5rem ;
     background-color: var(--bg);
     color: var(--texto);
+}
+
+.btn {
+    padding: .6rem .9rem;
+    border: 1px solid var(--borda);
+    background-color: var(--bg);
+    color: var(--texto);
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn.primario {
+    margin-top: 1rem;
+    background-color: var(--acao);
+    color: #fff;
+}
+
+.rodape {
+    border-top: 1px solid var(--borda);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    margin-top: auto;
 }
