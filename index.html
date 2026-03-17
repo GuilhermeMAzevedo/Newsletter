@@ -23,10 +23,10 @@
 
             <form>
                 <label for="Nome">Nome</label>
-                <input type="text" name="nome" id="nome" placeholder="Seu nome">
+                <input type="text" name="nome" id="nome" placeholder="Seu nome" required pattern="[A-Za-zÀ-ÿ\s]+">
 
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="nome@email.com">
+                <input type="email" name="email" id="email" placeholder="nome@email.com" required pattern="[^\s@]+@[^\s@]+\.[^\s@]+">
                 
                 <button type="submit" class="btn primario">Quero receber</button>
 

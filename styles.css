@@ -1,4 +1,3 @@
-/* Tema claro / escuro */
 :root {
     --bg: #fff;
     --texto: #111;
@@ -11,12 +10,11 @@
 [data-tema="escuro"] {
     --bg: #0b1220;
     --texto: #e5e7eb;
-    --bordas: #1f2937;
+    --borda: #1f2937;
     --caixa: #111827;
     --acao: #38bdf8;
 }
 
-/* Estilos padrão */
 * {
     box-sizing: border-box;
 
@@ -34,7 +32,7 @@ body {
     flex-direction: column;
     background-color: var(--bg);
     color: var(--texto);
-
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .topo {
