@@ -49,7 +49,9 @@ Aplicação web desenvolvida utilizando HTML, CSS e JavaScript que permite a ins
 
 ┃ ┣ 📜 app.js
 
-┣ 📜 README.md
+┣ 📜 LICENSE
+
+┗ 📜 README.md
 
 ## Funcionalidades:
 
